@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"><suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/sanas/OneDrive/Desktop/Zooplus-Cart">
+        <classes>
+            <class name="com.zooplus.cart.testpages.CartPageTest">
+                <methods><include name="dismissPopUp"/>
+            <include name="AddMultipleProductsFromRecommendation"/>
+                    <include name="Assert_Cart_exist"/>
+            <include name="SortProductPrice"/><include name="IncrementQuantity"/>
+            <include name="deleteHighPriceProduct"/>
+            <include name="UpdateShippingCountry"/>
+            <include name="ProceedToCheckOut"/>
+        </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
