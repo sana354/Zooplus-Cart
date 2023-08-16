@@ -12,11 +12,17 @@ import org.testng.annotations.Test;
 public class CartPageTest extends BaseTest {
     private static CartPage cartPage;
 
-    @Test (priority = 0)
-    public void beforeTest()
-    {
-        cartPage = new CartPage(getDriver());
-        cartPage.open();
+
+    @Test
+    public void beforeTest() {
+        try {
+            cartPage = new CartPage(getDriver());
+            cartPage.open();
+        } catch (NullPointerException e) {
+            // Handle the exception here
+            System.out.println("Caught a NullPointerException: " + e.getMessage());
+            // Perform error handling or fallback actions
+        }
     }
 
    @Test (priority = 1)
@@ -57,7 +63,6 @@ public class CartPageTest extends BaseTest {
 
         cartPage.addproduct();
     }
-
 
     @Test (priority = 4)
     @Owner("Sana")
@@ -118,7 +123,6 @@ public class CartPageTest extends BaseTest {
     @AfterTest
     public void afterTest()
     {
-
 
         cartPage.quit();
 

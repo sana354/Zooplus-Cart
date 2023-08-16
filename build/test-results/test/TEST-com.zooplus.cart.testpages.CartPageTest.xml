@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.zooplus.cart.testpages.CartPageTest" tests="11" skipped="0" failures="0" errors="0" timestamp="2023-08-11T21:29:53" hostname="LAPTOP-SOCV46U4" time="31.28">
+<testsuite name="com.zooplus.cart.testpages.CartPageTest" tests="11" skipped="0" failures="0" errors="0" timestamp="2023-08-16T08:11:43" hostname="LAPTOP-SOCV46U4" time="81.084">
   <properties/>
-  <testcase name="beforeTest" classname="com.zooplus.cart.testpages.CartPageTest" time="0.794"/>
-  <testcase name="dismissPopUp" classname="com.zooplus.cart.testpages.CartPageTest" time="0.616"/>
+  <testcase name="beforeTest" classname="com.zooplus.cart.testpages.CartPageTest" time="0.708"/>
+  <testcase name="dismissPopUp" classname="com.zooplus.cart.testpages.CartPageTest" time="0.155"/>
   <testcase name="Assert_Cart_exist" classname="com.zooplus.cart.testpages.CartPageTest" time="0.007"/>
-  <testcase name="addproducts" classname="com.zooplus.cart.testpages.CartPageTest" time="3.412"/>
-  <testcase name="SortProductPrice" classname="com.zooplus.cart.testpages.CartPageTest" time="0.168"/>
-  <testcase name="AddMultipleProductsFromRecommendation" classname="com.zooplus.cart.testpages.CartPageTest" time="14.129"/>
-  <testcase name="IncrementQuantity" classname="com.zooplus.cart.testpages.CartPageTest" time="0.176"/>
-  <testcase name="deleteHighPriceProduct" classname="com.zooplus.cart.testpages.CartPageTest" time="0.22"/>
-  <testcase name="UpdateShippingCountry" classname="com.zooplus.cart.testpages.CartPageTest" time="0.986"/>
-  <testcase name="addProductsIfNeeded" classname="com.zooplus.cart.testpages.CartPageTest" time="9.287"/>
-  <testcase name="ProceedToCheckOut" classname="com.zooplus.cart.testpages.CartPageTest" time="1.368"/>
+  <testcase name="addproducts" classname="com.zooplus.cart.testpages.CartPageTest" time="3.596"/>
+  <testcase name="SortProductPrice" classname="com.zooplus.cart.testpages.CartPageTest" time="0.162"/>
+  <testcase name="AddMultipleProductsFromRecommendation" classname="com.zooplus.cart.testpages.CartPageTest" time="60.606"/>
+  <testcase name="IncrementQuantity" classname="com.zooplus.cart.testpages.CartPageTest" time="0.173"/>
+  <testcase name="deleteHighPriceProduct" classname="com.zooplus.cart.testpages.CartPageTest" time="0.194"/>
+  <testcase name="UpdateShippingCountry" classname="com.zooplus.cart.testpages.CartPageTest" time="1.484"/>
+  <testcase name="addProductsIfNeeded" classname="com.zooplus.cart.testpages.CartPageTest" time="12.312"/>
+  <testcase name="ProceedToCheckOut" classname="com.zooplus.cart.testpages.CartPageTest" time="1.565"/>
   <system-out><![CDATA[/cart URL Assertion passed.
 getproduct Price: 24.99
 getproduct Price: 24.99
@@ -35,44 +35,17 @@ getproduct Price: 89.99
 getproduct Price: 2.29
  newly fetched Non-sorted Product prices: €[24.99, 24.99, 0.79, 84.99, 89.99, 2.29]
 Added product 1
-Error adding product: invalid selector: Unable to locate an element with the xpath expression //button[@class='z-btn z-btn--cart z-btn--cart-icon z-btn--small U4BZkzVFwtf33Kl5j64c'][last() because of the following error:
-SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//button[@class='z-btn z-btn--cart z-btn--cart-icon z-btn--small U4BZkzVFwtf33Kl5j64c'][last()' is not a valid XPath expression.
-  (Session info: chrome=115.0.5790.170)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
-Build info: version: '4.11.0', revision: '040bc5406b'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [0841c0bd38c172393adfd811ce16ef24, findElements {using=xpath, value=//button[@class='z-btn z-btn--cart z-btn--cart-icon z-btn--small U4BZkzVFwtf33Kl5j64c'][last()}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.170, chrome: {chromedriverVersion: 115.0.5790.170 (cc0d30c2ca5..., userDataDir: C:\Users\sanas\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64780}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64780/devtoo..., se:cdpVersion: 115.0.5790.170, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 0841c0bd38c172393adfd811ce16ef24
+Error adding product: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.cssSelector: #splide03 > div.splide__arrows.splide__arrows--ltr > button.splide__arrow--next.uNp32lhEEmXQrWBUZ3wa > svg' (tried for 10 second(s) with 500 milliseconds interval)
 Added product 2
-Error adding product: invalid selector: Unable to locate an element with the xpath expression //button[@class='z-btn z-btn--cart z-btn--cart-icon z-btn--small U4BZkzVFwtf33Kl5j64c'][last() because of the following error:
-SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//button[@class='z-btn z-btn--cart z-btn--cart-icon z-btn--small U4BZkzVFwtf33Kl5j64c'][last()' is not a valid XPath expression.
-  (Session info: chrome=115.0.5790.170)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
-Build info: version: '4.11.0', revision: '040bc5406b'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [0841c0bd38c172393adfd811ce16ef24, findElements {using=xpath, value=//button[@class='z-btn z-btn--cart z-btn--cart-icon z-btn--small U4BZkzVFwtf33Kl5j64c'][last()}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.170, chrome: {chromedriverVersion: 115.0.5790.170 (cc0d30c2ca5..., userDataDir: C:\Users\sanas\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64780}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64780/devtoo..., se:cdpVersion: 115.0.5790.170, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 0841c0bd38c172393adfd811ce16ef24
+Error adding product: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.cssSelector: #splide03 > div.splide__arrows.splide__arrows--ltr > button.splide__arrow--next.uNp32lhEEmXQrWBUZ3wa > svg' (tried for 10 second(s) with 500 milliseconds interval)
 Added product 3
-Error adding product: invalid selector: Unable to locate an element with the xpath expression //button[@class='z-btn z-btn--cart z-btn--cart-icon z-btn--small U4BZkzVFwtf33Kl5j64c'][last() because of the following error:
-SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//button[@class='z-btn z-btn--cart z-btn--cart-icon z-btn--small U4BZkzVFwtf33Kl5j64c'][last()' is not a valid XPath expression.
-  (Session info: chrome=115.0.5790.170)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Error adding product: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.cssSelector: #splide03 > div.splide__arrows.splide__arrows--ltr > button.splide__arrow--next.uNp32lhEEmXQrWBUZ3wa > svg' (tried for 10 second(s) with 500 milliseconds interval)
+Error adding product: Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on windows (0953a7bd43064b954e2faca9afa6f503)] -> xpath: //button[@class='z-btn z-btn--cart z-btn--cart-icon z-btn--small recommendation-item-module_cartBtn__i-O64']] (tried for 10 second(s) with 500 milliseconds interval)
 Build info: version: '4.11.0', revision: '040bc5406b'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [0841c0bd38c172393adfd811ce16ef24, findElements {using=xpath, value=//button[@class='z-btn z-btn--cart z-btn--cart-icon z-btn--small U4BZkzVFwtf33Kl5j64c'][last()}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.170, chrome: {chromedriverVersion: 115.0.5790.170 (cc0d30c2ca5..., userDataDir: C:\Users\sanas\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64780}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64780/devtoo..., se:cdpVersion: 115.0.5790.170, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 0841c0bd38c172393adfd811ce16ef24
-Error adding product: Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on windows (0841c0bd38c172393adfd811ce16ef24)] -> xpath: //button[@class='z-btn z-btn--cart z-btn--cart-icon z-btn--small U4BZkzVFwtf33Kl5j64c']] (tried for 10 second(s) with 500 milliseconds interval)
-Build info: version: '4.11.0', revision: '040bc5406b'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.170, chrome: {chromedriverVersion: 115.0.5790.170 (cc0d30c2ca5..., userDataDir: C:\Users\sanas\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64780}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64780/devtoo..., se:cdpVersion: 115.0.5790.170, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 0841c0bd38c172393adfd811ce16ef24
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.171, chrome: {chromedriverVersion: 115.0.5790.170 (cc0d30c2ca5..., userDataDir: C:\Users\sanas\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51732}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51732/devtoo..., se:cdpVersion: 115.0.5790.171, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0953a7bd43064b954e2faca9afa6f503
 getproduct Price: 24.99
 getproduct Price: 24.99
 getproduct Price: 0.79
@@ -83,7 +56,9 @@ getproduct Price: 0.49
 getproduct Price: 0.49
 getproduct Price: 9.79
 getproduct Price: 3.79
-Increment method prices list:[24.99, 24.99, 0.79, 0.79, 1.79, 1.79, 0.49, 0.49, 9.79, 3.79]
+getproduct Price: 3.69
+getproduct Price: 2.19
+Increment method prices list:[24.99, 24.99, 0.79, 0.79, 1.79, 1.79, 0.49, 0.49, 9.79, 3.79, 3.69, 2.19]
 Lowest price:0.49
 Lowest price index:6
 getproduct Price: 24.99
@@ -96,7 +71,9 @@ getproduct Price: 0.49
 getproduct Price: 0.49
 getproduct Price: 9.79
 getproduct Price: 3.79
-decrement method prices list:[24.99, 24.99, 0.79, 0.79, 1.79, 1.79, 0.49, 0.49, 9.79, 3.79]
+getproduct Price: 3.69
+getproduct Price: 2.19
+decrement method prices list:[24.99, 24.99, 0.79, 0.79, 1.79, 1.79, 0.49, 0.49, 9.79, 3.79, 3.69, 2.19]
 New Highest price index:24.99
 New Highest price index:0
 Clicked on decrement or delete button for Highest price index:0
@@ -106,12 +83,8 @@ Failed to parse price: Now 2.99
 Failed to parse price: Now 3.49
 Failed to parse price: Now 2.99
 Failed to parse price: Now 6.49
-Failed to parse price: Now 3.79
-Failed to parse price: Now 14.29
-Failed to parse price: Now 3.79
+Failed to parse price: Now 1.29
 Failed to parse price: Now 6.49
-Failed to parse price: Now 3.79
-Failed to parse price: Now 14.29
-Failed to parse price: Now 3.79
+Failed to parse price: Now 1.29
 ]]></system-err>
 </testsuite>

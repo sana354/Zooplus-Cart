@@ -25,7 +25,7 @@ public class CartPage extends AbstractBasePage {
     @FindBy(css = "#splide03 > div.splide__arrows.splide__arrows--ltr > button.splide__arrow--next.uNp32lhEEmXQrWBUZ3wa > svg")
     private WebElement arrowButton;
 
-    @FindBy(xpath = "//button[@class='z-btn z-btn--cart z-btn--cart-icon z-btn--small U4BZkzVFwtf33Kl5j64c']")
+    @FindBy(xpath = "//button[@class='z-btn z-btn--cart z-btn--cart-icon z-btn--small recommendation-item-module_cartBtn__i-O64']")
     private List<WebElement> addtoCart;
 
     @FindBy(css = "[data-zta^=\"productStandardPriceAmount\"]")
@@ -37,7 +37,7 @@ public class CartPage extends AbstractBasePage {
     @FindBy(css = ".z-price__price-wrap")
     private WebElement price_Element;
 
-    @FindBy(xpath = "//button[@class='z-btn z-btn--cart z-btn--cart-icon z-btn--small U4BZkzVFwtf33Kl5j64c']")
+    @FindBy(xpath = "//button[@class='z-btn z-btn--cart z-btn--cart-icon z-btn--small recommendation-item-module_cartBtn__i-O64']")
     private WebElement add2cart;
     @FindBy(xpath = "//*[@data-zta=\"quantityStepperIncrementButton\" and contains(@class, \"z-qty-stepper__btn\")]")
     private List<WebElement> incrementQuantity;
@@ -63,7 +63,7 @@ public class CartPage extends AbstractBasePage {
     @FindBy(xpath = "/html/body/div[3]/div/div[2]/button")
     private WebElement update;
 
-    @FindBy(xpath = "  //*[@id=\"cartSummary\"]/button")
+    @FindBy(xpath = "//*[@id=\"cartSummary\"]/div[5]/button")
     private WebElement checkout;
 
 

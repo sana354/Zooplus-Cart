@@ -26,9 +26,7 @@ public class BaseTest
         {
             throw new RuntimeException("could not create the chrome driver");
         }
-
     }
-
 
     public WebDriver getDriver()
     {
